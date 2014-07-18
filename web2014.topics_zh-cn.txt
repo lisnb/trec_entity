@@ -1,0 +1,50 @@
+251:identifying spider bites    区分被蛇咬了的伤口
+252:history of orcas island		虎鲸岛的历史
+253:tooth abscess				牙脓肿
+254:barrett's esophagus			巴雷特食管（是一种食道细胞病变的症状）
+255:teddy bears					泰迪熊
+256:patron saint of mental illness	心理（精神）疾病的主保圣人 —— St. Dymphna
+257:holes by louis sachar			louis sachar 的电影 《hole》
+258:hip roof						延伸出墙外的一种屋顶
+259:carpenter bee 					木蜂（一种蜜蜂）
+260:the american revolutionary		美国独立（战争）
+261:folk remedies sore throat 		喉咙痛的偏方
+262:balding cure 					治疗秃顶
+263:evidence for evolution			进化的证据
+264:tribe formerly living in alabama		阿拉巴马州的土著部落
+265:F5 tornado								F5级龙卷风
+266:symptoms of heart attack				心脏病发作的症状
+267:feliz navidad lyrics				    《feliz navidad(圣诞快乐)》的歌词
+268:benefits of running						跑步的益处
+269:marshall county schools					马歇尔郡的学校（类似社区学校）
+270:sun tzu									孙子
+271:halloween activities for middle schools	中学的万圣节活动
+272:dreams interpretation					释梦				
+273:wilson's disease						威尔逊氏病（遗传性疾病）
+274:golf instruction						高尔夫球指南
+275:uss cole								科尔号驱逐舰 
+276:how has african american music influence history	黑人音乐是怎样影响历史的
+277:bewitched cast 							《家有仙妻》的演员表
+278:mister rogers				    Frederick "Fred" McFeely Rogers 一个人... 
+279:game theory								博弈论
+280:view my internet history				看我的网络历史（浏览上网记录）
+281:ketogenic diet							生酮饮食
+282:nasa interplanetary missions			NASA的星际任务
+283:hayrides in pa 							在宾夕法尼亚周乘坐干草打车游玩
+284:where to find morel mushrooms 			去哪找鹿花菌
+285:magnesium rich foods					富镁食品
+286:common schizophrenia drugs 				常见的精神分裂症药物
+287:carotid cavernous fistula treatment 	颈内动脉海绵窦瘘的治疗方法
+288:fidel castro 							菲德尔·卡斯特罗（古巴领导人）
+289:benefits of yoga						瑜伽的益处
+290:norway spruce 							欧洲云杉，或译作挪威云杉
+291:sangre de cristo mountains				桑格里•德•克里斯托山脉
+292:history of the electronic medical record	电子病历的历史
+293:educational advantages of social networking sites	社交网站的教育优势
+294:flowering plants						开花植物；显花植物；有花植物
+295:how to tie a windsor knot				怎么打领带（温莎结）
+296:recycling lead acid batteries			含铅电池的回收再利用
+297:altitude sickness						高原反应（高空病）
+298:medical care and jehovah's witnesses	耶和华见证人与医学（伦理）
+299:pink slime in ground beef 				粉红泥碎牛肉
+300:how to find the mean					怎么求平均数
