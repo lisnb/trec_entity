@@ -3,7 +3,7 @@
 # @Author: LiSnB
 # @Date:   2014-07-18 10:57:11
 # @Last Modified by:   LiSnB
-# @Last Modified time: 2014-07-18 21:19:01
+# @Last Modified time: 2014-07-18 23:51:12
 # @Email: lisnb.h@gmail.com
 
 """
@@ -12,6 +12,7 @@
 """
 import json
 import urllib
+import os
 
 
 def pureit():
@@ -26,18 +27,13 @@ def getalljson():
 		api_key = f.read()
 	with open('web2014.topics.txt.pure') as f:
 		topics = f.read().split('\n')
-
 	service_url = 'https://www.googleapis.com/freebase/v1/search'
-
 	a_tokens=[]
-
 	logs = []
-
 	params={
 		'query':'query',
 		'key':api_key
 	}
-
 	for topic in topics:
 		try:
 			tokens = topic.split()
@@ -65,10 +61,18 @@ def getalljson():
 	with open('freebase.log','w') as f:
 		f.write('\n'.join(logs))
 
+def getentity():
+	a = {"status":"200 OK","result":[{"mid":"/m/02gv8l","name":"","lang":"en","score":1.329975}],"cost":8,"hits":1}
+	print a['status']
+
+
+
 
 if __name__ == '__main__':
 	# pureit()
-	getalljson()
+	# getalljson()
+	getentity()
+
 
 
 
