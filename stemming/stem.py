@@ -3,7 +3,7 @@
 # @Author: LiSnB
 # @Date:   2014-07-28 23:10:10
 # @Last Modified by:   LiSnB
-# @Last Modified time: 2014-07-28 23:37:50
+# @Last Modified time: 2014-07-28 23:44:54
 # @Email: lisnb.h@gmail.com
 
 """
@@ -25,28 +25,37 @@ def foo():
 
 	# files = ['14.txt']
 
+	words = set()
+
 	for qf in files:
 		qfp = root+qf
 		with open(qfp) as f:
 			content = f.read().split('\n')
 		lines = []
 		for line in content:
-			print line
+			# print line
 			ts = line.split(':',1)
-			print ts
+			# print ts
 			number = ts[0]+':'
 			queries=puncre.split(ts[1])
 			tql = [number]
 			for query in queries:
 				tql.append(query)
-				# sq = stemmer.stem(query)
-				sq = porter2.stem(query)
-				if sq != query:
-					tql.append(sq)
+				sq = stemmer.stem(query)
+				# sq = porter2.stem(query)
+				words.add(query)
+				words.add(sq)
+				# if sq != query:
+					# tql.append(sq)
 			lines.append(' '.join(tql))
-		qfp += '.stem_stemming.txt'
-		with open(qfp,'w') as f:
-			f.write('\n'.join(lines))
+		# qfp += '.stem_stemming.txt'
+		# with open(qfp,'w') as f:
+		# 	f.write('\n'.join(lines))
+
+
+	qfp = 'words_nltk.txt'
+	with open(qfp,'w') as f:
+		f.write(' '.join(list(words)))
 
 
 
