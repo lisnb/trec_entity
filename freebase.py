@@ -15,7 +15,7 @@ import json
 import urllib
 
 def foo():
-	api_key = 'AIzaSyCyOX5A9WqWEMdNKVJtWR6FB4T6Ru1n14I'
+	api_key = '++++++++++++++++++++++++++++++++++++++++++++++'
 
 	query = 'beef stroganoff recipe'
 	service_url = 'https://www.googleapis.com/freebase/v1/search'
